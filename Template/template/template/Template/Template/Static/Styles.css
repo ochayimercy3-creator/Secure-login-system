@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f2f5fa;
+    color: #172033;
+    font-family: Arial, sans-serif;
+}
+
+.wrap {
+    max-width: 760px;
+    margin: auto;
+    padding: 18px;
+}
+
+header {
+    background: #14213d;
+    padding: 18px;
+    border-radius: 14px;
+}
+
+.brand {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.panel {
+    background: white;
+    margin: 28px auto;
+    padding: 26px;
+    border-radius: 16px;
+    max-width: 480px;
+    box-shadow: 0 8px 28px #14213d12;
+}
+
+h1 {
+    color: #14213d;
+}
+
+label {
+    display: block;
+    margin: 16px 0 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccd4e0;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+button, .btn {
+    display: inline-block;
+    background: #1769aa;
+    color: white;
+    padding: 13px 18px;
+    border: 0;
+    border-radius: 9px;
+    margin-top: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.secondary {
+    background: #34445f;
+}
+
+.success {
+    text-align: center;
+    padding: 42px 20px;
+}
+
+.success h1 {
+    color: #167344;
+}
+
+.wide {
+    max-width: 100%;
+}
+
+.tablewrap {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+    font-size: 12px;
+}
+
+@media(max-width:480px) {
+    .wrap {
+        padding: 12px;
+    }
+
+    .panel {
+        padding: 21px;
+    }
+}
