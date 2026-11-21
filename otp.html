@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<section class="panel"><h1>Verify your login</h1><p>Enter the 6-digit code sent to your email. It expires in 5 minutes.</p><form method="post"><label>Verification code</label><input name="code" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" required><button>Verify</button></form></section>{% endblock %}
