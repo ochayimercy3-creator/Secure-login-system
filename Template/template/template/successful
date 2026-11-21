@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel success">
+    <h1>LOGIN SUCCESSFUL</h1>
+    <p>You are securely logged in.</p>
+    <a class="btn" href="/logout">Log out</a>
+</section>
+{% endblock %}
