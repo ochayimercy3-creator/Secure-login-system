@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+    <h1>Verify Your Login</h1>
+    <p>Enter the 6-digit code sent to your email.</p>
+    <form method="post">
+        <label>Verification Code</label>
+        <input name="code" type="text"
+               inputmode="numeric" pattern="[0-9]{6}"
+               maxlength="6" required>
+        <button>Verify</button>
+    </form>
+</section>
+{% endblock %}
